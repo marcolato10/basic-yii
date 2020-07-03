@@ -13,8 +13,8 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="site-login">
     <h1><?= Html::encode($this->title) ?></h1>
 
-    <p>Este es el sistema de mlatorre:</p>
-
+    <p>Hice un cambio desde el ML:</p>
+g
     <?php $form = ActiveForm::begin([
         'id' => 'login-form',
         'layout' => 'horizontal',
@@ -34,7 +34,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
         <div class="form-group">
             <div class="col-lg-offset-1 col-lg-11">
-                <?= Html::submitButton('Loguearse', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
+                <?= Html::submitButton('Entrar al Admin', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
             </div>
         </div>
 
